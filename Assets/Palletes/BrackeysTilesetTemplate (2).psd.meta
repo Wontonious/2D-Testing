@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 927121100d909f3448f13f5e7b1fd2d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5784010356501643417
+    second: BrackeysTilesetTemplate (2)_0
+  - first:
+      213: 2229837486686471355
+    second: BrackeysTilesetTemplate (2)_1
+  - first:
+      213: -6055614663709333140
+    second: BrackeysTilesetTemplate (2)_2
+  - first:
+      213: -4913116662669578976
+    second: BrackeysTilesetTemplate (2)_3
+  - first:
+      213: 4590229128363308053
+    second: BrackeysTilesetTemplate (2)_4
+  - first:
+      213: -8206430813088616278
+    second: BrackeysTilesetTemplate (2)_5
+  - first:
+      213: -7801342932390047195
+    second: BrackeysTilesetTemplate (2)_6
+  - first:
+      213: -8955044004461221066
+    second: BrackeysTilesetTemplate (2)_7
+  - first:
+      213: -8413683646263861360
+    second: BrackeysTilesetTemplate (2)_8
+  - first:
+      213: -7415452762851191680
+    second: BrackeysTilesetTemplate (2)_9
+  - first:
+      213: 9173753460781237271
+    second: BrackeysTilesetTemplate (2)_10
+  - first:
+      213: -6256398040015548110
+    second: BrackeysTilesetTemplate (2)_11
+  - first:
+      213: 9017613934363444634
+    second: BrackeysTilesetTemplate (2)_12
+  - first:
+      213: -732574752586320150
+    second: BrackeysTilesetTemplate (2)_13
+  - first:
+      213: 8900983136161518325
+    second: BrackeysTilesetTemplate (2)_14
+  - first:
+      213: 2776494793573378319
+    second: BrackeysTilesetTemplate (2)_15
+  - first:
+      213: -6466898078606759739
+    second: BrackeysTilesetTemplate (2)_16
+  - first:
+      213: 5576249147676354120
+    second: BrackeysTilesetTemplate (2)_17
+  - first:
+      213: -573916140567561573
+    second: BrackeysTilesetTemplate (2)_18
+  - first:
+      213: 983442064091306092
+    second: BrackeysTilesetTemplate (2)_19
+  - first:
+      213: -8010427395630092201
+    second: BrackeysTilesetTemplate (2)_20
+  - first:
+      213: 254694562629940826
+    second: BrackeysTilesetTemplate (2)_21
+  - first:
+      213: 278957509815161601
+    second: BrackeysTilesetTemplate (2)_22
+  - first:
+      213: 1963667196892982633
+    second: BrackeysTilesetTemplate (2)_23
+  - first:
+      213: 896253183473962963
+    second: BrackeysTilesetTemplate (2)_24
+  - first:
+      213: 7726933301853702835
+    second: BrackeysTilesetTemplate (2)_25
+  - first:
+      213: -3050572749080836721
+    second: BrackeysTilesetTemplate (2)_26
+  - first:
+      213: -77499929764898571
+    second: BrackeysTilesetTemplate (2)_27
+  - first:
+      213: -8855717289001002660
+    second: BrackeysTilesetTemplate (2)_28
+  - first:
+      213: 1804525413429893908
+    second: BrackeysTilesetTemplate (2)_29
+  - first:
+      213: 8603080247835493531
+    second: BrackeysTilesetTemplate (2)_30
+  - first:
+      213: 6822894235152500768
+    second: BrackeysTilesetTemplate (2)_31
+  - first:
+      213: 3525831829417455285
+    second: BrackeysTilesetTemplate (2)_32
+  - first:
+      213: -8569401875599167735
+    second: BrackeysTilesetTemplate (2)_33
+  - first:
+      213: -3901221092268028678
+    second: BrackeysTilesetTemplate (2)_34
+  - first:
+      213: -6155046135326673389
+    second: BrackeysTilesetTemplate (2)_35
+  - first:
+      213: 4860805369442838797
+    second: BrackeysTilesetTemplate (2)_36
+  - first:
+      213: 7281334706961476582
+    second: BrackeysTilesetTemplate (2)_37
+  - first:
+      213: 5651738885171082205
+    second: BrackeysTilesetTemplate (2)_38
+  - first:
+      213: -127812759081328512
+    second: BrackeysTilesetTemplate (2)_39
+  - first:
+      213: 2888278615100815027
+    second: BrackeysTilesetTemplate (2)_40
+  - first:
+      213: -5473716611962908740
+    second: BrackeysTilesetTemplate (2)_41
+  - first:
+      213: -3119132950758247167
+    second: BrackeysTilesetTemplate (2)_42
+  - first:
+      213: 9075744017846147768
+    second: BrackeysTilesetTemplate (2)_43
+  - first:
+      213: -5368967233113409891
+    second: BrackeysTilesetTemplate (2)_44
+  - first:
+      213: -263699906751074700
+    second: BrackeysTilesetTemplate (2)_45
+  - first:
+      213: 3464960744689596550
+    second: BrackeysTilesetTemplate (2)_46
+  - first:
+      213: 9113062407697804
+    second: BrackeysTilesetTemplate (2)_47
+  - first:
+      213: -3475763521977325410
+    second: BrackeysTilesetTemplate (2)_48
+  - first:
+      213: 2944010042258625705
+    second: BrackeysTilesetTemplate (2)_49
+  - first:
+      213: -6444739607199912108
+    second: BrackeysTilesetTemplate (2)_50
+  - first:
+      213: -5401727738620633850
+    second: BrackeysTilesetTemplate (2)_51
+  - first:
+      213: -5930337475809011699
+    second: BrackeysTilesetTemplate (2)_52
+  - first:
+      213: 2674000090378109072
+    second: BrackeysTilesetTemplate (2)_53
+  - first:
+      213: -1919942729283548067
+    second: BrackeysTilesetTemplate (2)_54
+  - first:
+      213: 2402391347822120222
+    second: BrackeysTilesetTemplate (2)_55
+  - first:
+      213: 5513448403966176380
+    second: BrackeysTilesetTemplate (2)_56
+  - first:
+      213: 1320154006690231973
+    second: BrackeysTilesetTemplate (2)_57
+  - first:
+      213: 6984829951242324490
+    second: BrackeysTilesetTemplate (2)_58
+  - first:
+      213: 5659686863360054766
+    second: BrackeysTilesetTemplate (2)_59
+  - first:
+      213: 8823273324230707220
+    second: BrackeysTilesetTemplate (2)_60
+  - first:
+      213: 6960287590718265294
+    second: BrackeysTilesetTemplate (2)_61
+  - first:
+      213: 4446339235255842238
+    second: BrackeysTilesetTemplate (2)_62
+  - first:
+      213: 741454304582344932
+    second: BrackeysTilesetTemplate (2)_63
+  - first:
+      213: 271019013102105615
+    second: BrackeysTilesetTemplate (2)_64
+  - first:
+      213: 2029933503201810145
+    second: BrackeysTilesetTemplate (2)_65
+  - first:
+      213: -253966679160413231
+    second: BrackeysTilesetTemplate (2)_66
+  - first:
+      213: -9052282651502726867
+    second: BrackeysTilesetTemplate (2)_67
+  - first:
+      213: -1057193758405651453
+    second: BrackeysTilesetTemplate (2)_68
+  - first:
+      213: -1538828184236799484
+    second: BrackeysTilesetTemplate (2)_69
+  - first:
+      213: 9197904599305497344
+    second: BrackeysTilesetTemplate (2)_70
+  - first:
+      213: -7730422322685600101
+    second: BrackeysTilesetTemplate (2)_71
+  - first:
+      213: -3711358626241031775
+    second: BrackeysTilesetTemplate (2)_72
+  - first:
+      213: 6341577638707124323
+    second: BrackeysTilesetTemplate (2)_73
+  - first:
+      213: 620488645509807917
+    second: BrackeysTilesetTemplate (2)_74
+  - first:
+      213: -6311107736662762000
+    second: BrackeysTilesetTemplate (2)_75
+  - first:
+      213: -3037253634042663574
+    second: BrackeysTilesetTemplate (2)_76
+  - first:
+      213: -8343003015462170982
+    second: BrackeysTilesetTemplate (2)_77
+  - first:
+      213: -1298448972483056433
+    second: BrackeysTilesetTemplate (2)_78
+  - first:
+      213: -5268963520073082559
+    second: BrackeysTilesetTemplate (2)_79
+  - first:
+      213: 6970879852850104884
+    second: BrackeysTilesetTemplate (2)_80
+  - first:
+      213: 9111341511121531182
+    second: BrackeysTilesetTemplate (2)_81
+  - first:
+      213: 4901174914943715679
+    second: BrackeysTilesetTemplate (2)_82
+  - first:
+      213: -7760773099328414248
+    second: BrackeysTilesetTemplate (2)_83
+  - first:
+      213: -3157587248614631186
+    second: BrackeysTilesetTemplate (2)_84
+  - first:
+      213: 1453923333203968054
+    second: BrackeysTilesetTemplate (2)_85
+  - first:
+      213: 6286551441802556819
+    second: BrackeysTilesetTemplate (2)_86
+  - first:
+      213: -964309974141622362
+    second: BrackeysTilesetTemplate (2)_87
+  - first:
+      213: -8329474884304931758
+    second: BrackeysTilesetTemplate (2)_88
+  - first:
+      213: 9135579739641020065
+    second: BrackeysTilesetTemplate (2)_89
+  - first:
+      213: -3634293758037645245
+    second: BrackeysTilesetTemplate (2)_90
+  - first:
+      213: -1604747789922264757
+    second: BrackeysTilesetTemplate (2)_91
+  - first:
+      213: -8312225466869948709
+    second: BrackeysTilesetTemplate (2)_92
+  - first:
+      213: -5008077602965021785
+    second: BrackeysTilesetTemplate (2)_93
+  - first:
+      213: -1982528786597075719
+    second: BrackeysTilesetTemplate (2)_94
+  - first:
+      213: -3246487712050286881
+    second: BrackeysTilesetTemplate (2)_95
+  - first:
+      213: 8613947878738447883
+    second: BrackeysTilesetTemplate (2)_96
+  - first:
+      213: -8265358695958863618
+    second: BrackeysTilesetTemplate (2)_97
+  - first:
+      213: 6784170855347860655
+    second: BrackeysTilesetTemplate (2)_98
+  - first:
+      213: 2941010623145187492
+    second: BrackeysTilesetTemplate (2)_99
+  - first:
+      213: 3909811710331451399
+    second: BrackeysTilesetTemplate (2)_100
+  - first:
+      213: 3546490637162116481
+    second: BrackeysTilesetTemplate (2)_101
+  - first:
+      213: 8585807669796494194
+    second: BrackeysTilesetTemplate (2)_102
+  - first:
+      213: 1567395928672304909
+    second: BrackeysTilesetTemplate (2)_103
+  - first:
+      213: 3657509265427823991
+    second: BrackeysTilesetTemplate (2)_104
+  - first:
+      213: -3767987611365705356
+    second: BrackeysTilesetTemplate (2)_105
+  - first:
+      213: -4942486954129855002
+    second: BrackeysTilesetTemplate (2)_106
+  - first:
+      213: -2463196955244765086
+    second: BrackeysTilesetTemplate (2)_107
+  - first:
+      213: 4255329151144428747
+    second: BrackeysTilesetTemplate (2)_108
+  - first:
+      213: -6756585888051432994
+    second: BrackeysTilesetTemplate (2)_109
+  - first:
+      213: -3739752444054976129
+    second: BrackeysTilesetTemplate (2)_110
+  - first:
+      213: 2752442638513597115
+    second: BrackeysTilesetTemplate (2)_111
+  - first:
+      213: -2427726103925935584
+    second: BrackeysTilesetTemplate (2)_112
+  - first:
+      213: 9082440451682887561
+    second: BrackeysTilesetTemplate (2)_113
+  - first:
+      213: 4579689137006634312
+    second: BrackeysTilesetTemplate (2)_114
+  - first:
+      213: 4810175495155575447
+    second: BrackeysTilesetTemplate (2)_115
+  - first:
+      213: -163608962876750683
+    second: BrackeysTilesetTemplate (2)_116
+  - first:
+      213: 827155209146760528
+    second: BrackeysTilesetTemplate (2)_117
+  - first:
+      213: 8034576359313658810
+    second: BrackeysTilesetTemplate (2)_118
+  - first:
+      213: 4580132284402429041
+    second: BrackeysTilesetTemplate (2)_119
+  - first:
+      213: -7817850029059228998
+    second: BrackeysTilesetTemplate (2)_120
+  - first:
+      213: 2367749958949694822
+    second: BrackeysTilesetTemplate (2)_121
+  - first:
+      213: 6740921362080973177
+    second: BrackeysTilesetTemplate (2)_122
+  - first:
+      213: 4445775286622185860
+    second: BrackeysTilesetTemplate (2)_123
+  - first:
+      213: 2840393914381238578
+    second: BrackeysTilesetTemplate (2)_124
+  - first:
+      213: -1583365101344154515
+    second: BrackeysTilesetTemplate (2)_125
+  - first:
+      213: 3216816639982832728
+    second: BrackeysTilesetTemplate (2)_126
+  - first:
+      213: -1306250649576308935
+    second: BrackeysTilesetTemplate (2)_127
+  - first:
+      213: 9130480339056851719
+    second: BrackeysTilesetTemplate (2)_128
+  - first:
+      213: 5627951741605671557
+    second: BrackeysTilesetTemplate (2)_129
+  - first:
+      213: 7707239925955068876
+    second: BrackeysTilesetTemplate (2)_130
+  - first:
+      213: -1995090971603584929
+    second: BrackeysTilesetTemplate (2)_131
+  - first:
+      213: 9153672368071189684
+    second: BrackeysTilesetTemplate (2)_132
+  - first:
+      213: 9077779922468765933
+    second: BrackeysTilesetTemplate (2)_133
+  - first:
+      213: 404941877943569992
+    second: BrackeysTilesetTemplate (2)_134
+  - first:
+      213: -5225041082178456087
+    second: BrackeysTilesetTemplate (2)_135
+  - first:
+      213: 312864253694216019
+    second: BrackeysTilesetTemplate (2)_136
+  - first:
+      213: 6832810769863878941
+    second: BrackeysTilesetTemplate (2)_137
+  - first:
+      213: -4186326894263707102
+    second: BrackeysTilesetTemplate (2)_138
+  - first:
+      213: -422644695750615696
+    second: BrackeysTilesetTemplate (2)_139
+  - first:
+      213: -6207139401955134799
+    second: BrackeysTilesetTemplate (2)_140
+  - first:
+      213: -2058970295867747523
+    second: BrackeysTilesetTemplate (2)_141
+  - first:
+      213: 2576400341024147359
+    second: BrackeysTilesetTemplate (2)_142
+  - first:
+      213: -1162491814223717863
+    second: BrackeysTilesetTemplate (2)_143
+  - first:
+      213: 6617119473868211072
+    second: BrackeysTilesetTemplate (2)_144
+  - first:
+      213: -4661831356635300249
+    second: BrackeysTilesetTemplate (2)_145
+  - first:
+      213: 1306898525373309042
+    second: BrackeysTilesetTemplate (2)_146
+  - first:
+      213: 3259288366777303701
+    second: BrackeysTilesetTemplate (2)_147
+  - first:
+      213: 1299470937402403013
+    second: BrackeysTilesetTemplate (2)_148
+  - first:
+      213: 225042981884706172
+    second: BrackeysTilesetTemplate (2)_149
+  - first:
+      213: -3565677137835666273
+    second: BrackeysTilesetTemplate (2)_150
+  - first:
+      213: -4074755431554914577
+    second: BrackeysTilesetTemplate (2)_151
+  - first:
+      213: 1635012768704886773
+    second: BrackeysTilesetTemplate (2)_152
+  - first:
+      213: 3970990787689376428
+    second: BrackeysTilesetTemplate (2)_153
+  - first:
+      213: -1721660022111184630
+    second: BrackeysTilesetTemplate (2)_154
+  - first:
+      213: 9211992559926307582
+    second: BrackeysTilesetTemplate (2)_155
+  - first:
+      213: -4699481737002263884
+    second: BrackeysTilesetTemplate (2)_156
+  - first:
+      213: 8746802174766028339
+    second: BrackeysTilesetTemplate (2)_157
+  - first:
+      213: -5518045423891998526
+    second: BrackeysTilesetTemplate (2)_158
+  - first:
+      213: -8889769976210481672
+    second: BrackeysTilesetTemplate (2)_159
+  - first:
+      213: 5430945648469444751
+    second: BrackeysTilesetTemplate (2)_160
+  - first:
+      213: -8851061487201314022
+    second: BrackeysTilesetTemplate (2)_161
+  - first:
+      213: -6351815306299396714
+    second: BrackeysTilesetTemplate (2)_162
+  - first:
+      213: -8104043805082188338
+    second: BrackeysTilesetTemplate (2)_163
+  - first:
+      213: -8718791998829481189
+    second: BrackeysTilesetTemplate (2)_164
+  - first:
+      213: 5482261544158120930
+    second: BrackeysTilesetTemplate (2)_165
+  - first:
+      213: -182005886012337946
+    second: BrackeysTilesetTemplate (2)_166
+  - first:
+      213: 5294928112894930775
+    second: BrackeysTilesetTemplate (2)_167
+  - first:
+      213: 1679698977229555660
+    second: BrackeysTilesetTemplate (2)_168
+  - first:
+      213: -5197979362268847011
+    second: BrackeysTilesetTemplate (2)_169
+  - first:
+      213: -3177392230788611570
+    second: BrackeysTilesetTemplate (2)_170
+  - first:
+      213: -2754894735808479582
+    second: BrackeysTilesetTemplate (2)_171
+  - first:
+      213: -5843228113056073370
+    second: BrackeysTilesetTemplate (2)_172
+  - first:
+      213: 1656394320685109526
+    second: BrackeysTilesetTemplate (2)_173
+  - first:
+      213: -230693130810925272
+    second: BrackeysTilesetTemplate (2)_174
+  - first:
+      213: -4196991800045469154
+    second: BrackeysTilesetTemplate (2)_175
+  - first:
+      213: -5569545180047648274
+    second: BrackeysTilesetTemplate (2)_176
+  - first:
+      213: -3254429422159227113
+    second: BrackeysTilesetTemplate (2)_177
+  - first:
+      213: -5155192205622350508
+    second: BrackeysTilesetTemplate (2)_178
+  - first:
+      213: 5627369189383036737
+    second: BrackeysTilesetTemplate (2)_179
+  - first:
+      213: -7704239207582037620
+    second: BrackeysTilesetTemplate (2)_180
+  - first:
+      213: 6027937361868511511
+    second: BrackeysTilesetTemplate (2)_181
+  - first:
+      213: 540110560787915162
+    second: BrackeysTilesetTemplate (2)_182
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BrackeysTilesetTemplate (2)_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1447
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ff98bc9311bbfa0800000000000000
+      internalID: -5784010356501643417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrackeysTilesetTemplate (2)_3
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1439
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02de6851d6a11dbb0800000000000000
+      internalID: -4913116662669578976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrackeysTilesetTemplate (2)_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71440eefa28bf4f70800000000000000
+      internalID: 9173753460781237271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
