@@ -9,15 +9,16 @@ public class Enemy : MonoBehaviour
 
     public GameObject deathEffect;
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(int damage)
     {
         health -= damage;
         Debug.Log(health);
-        if(health <= 0)
+        if (health <= 0)
         {
             Die();
         }
     }
+
 
     void Die()
     {
