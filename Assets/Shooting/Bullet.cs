@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public GameObject hitEffect;
-    public int damage = 10;
+    public int damage = 0;
 
     void OnCollisionEnter2D(Collision2D collision)
     {

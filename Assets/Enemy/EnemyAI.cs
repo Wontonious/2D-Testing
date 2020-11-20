@@ -26,14 +26,20 @@ public class EnemyAI : MonoBehaviour
     {
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
-
-        InvokeRepeating("UpdatePath", 0f, 0.5f);
+        if (target != null)
+        {
+            InvokeRepeating("UpdatePath", 0f, 0.5f);
+        }
+        else return;
     }
 
     void UpdatePath()
     {
-        if(seeker.IsDone())
-            seeker.StartPath(rb.position, target.position, OnPathComplete);
+        if (target != null)
+        {
+            if (seeker.IsDone())
+                seeker.StartPath(rb.position, target.position, OnPathComplete);
+        }
     }
 
     void OnPathComplete(Path p)
@@ -48,38 +54,42 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (path == null)
-            return;
-
-        if (currentWaypoint >= path.vectorPath.Count)
+        if (target != null)
         {
-            reachedEndOfPath = true;
-            return;
-        }
-        else
-        {
-            reachedEndOfPath = false;
-        }
+            if (path == null)
+                return;
 
-        Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-        Vector2 force = direction * speed * Time.deltaTime;
+            if (currentWaypoint >= path.vectorPath.Count)
+            {
+                reachedEndOfPath = true;
+                return;
+            }
+            else
+            {
+                reachedEndOfPath = false;
+            }
 
-        rb.AddForce(force);
+            Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
+            Vector2 force = direction * speed * Time.deltaTime;
 
-        float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
+            rb.AddForce(force);
 
-        if (distance < nextWaypointDistance)
-        {
-            currentWaypoint++;
+            float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
+
+            if (distance < nextWaypointDistance)
+            {
+                currentWaypoint++;
+            }
+
+            if (rb.velocity.x >= 0.01)
+            {
+                transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            else if (rb.velocity.x <= 0.01)
+            {
+                transform.localScale = new Vector3(-1f, 1f, 1f);
+            }
         }
-
-        if (rb.velocity.x >= 0.01)
-        {
-            transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-        else if (rb.velocity.x <= 0.01)
-        {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
+        else return;
     }
 }

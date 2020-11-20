@@ -14,6 +14,16 @@ public class PlayerMove : MonoBehaviour
     public Camera cam;
 
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        ContactPoint2D contact = collision.contacts[0];
+        Enemy badGuy = collision.gameObject.GetComponent<Enemy>();
+        if(collision.gameObject.tag == "Enemy")
+        {
+            rb.MovePosition(contact.normal *500f);
+        }
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -25,7 +35,6 @@ public class PlayerMove : MonoBehaviour
     //Good for physics calculations
     void FixedUpdate()
     {
-        RotatePlayer();
         Move();
 
         Vector2 lookDir = mousePos - rb.position;
@@ -44,8 +53,5 @@ public class PlayerMove : MonoBehaviour
         rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
     }
 
-    void RotatePlayer()
-    {
-
-    }
+   
 }

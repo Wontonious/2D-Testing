@@ -15,7 +15,7 @@ TagManager:
   - 
   - 
   - Map
-  - 
+  - GUI
   - 
   - 
   - 
@@ -47,4 +47,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1016509647
+    locked: 0
+  - name: GUI
+    uniqueID: 1364979843
     locked: 0
