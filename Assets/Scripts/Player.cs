@@ -16,26 +16,30 @@ public class Player : MonoBehaviour
 
     public GameObject winScreen;
 
-    int[] enemy = new int[18];
+    public GameObject canvas;
+    public GameObject restartButton;
+
+    GameObject[] enemyTag;
+    bool runOnce = true;
+
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+
     }
 
-
-    void FixedUpdate()
+    private void Update()
     {
-        for (int i = 0; i < enemy.Length; i++)
-        {
 
-            int[i] enemy = new int gameObject.FindGameObjectsWithTag("Enemy")[i];
-        }
-        if (enemy.Length == 0)
+        enemyTag = GameObject.FindGameObjectsWithTag("Enemy");
+        int[] enemyCount = new int[enemyTag.Length];
+        if(enemyCount.Length == 0)
         {
-            Instantiate(winScreen, transform.position, Quaternion.identity);
+            Win();
         }
     }
+
     public void playerDamaged(int damage)
     {
 
@@ -57,6 +61,24 @@ public class Player : MonoBehaviour
         Debug.Log("You lost loser");
 
         Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Instantiate(loseScreen, transform.position, Quaternion.identity);
+
+        //FindObjectOfType<GameManager>().Restart();
+        GameObject loserScreen = Instantiate(loseScreen) as GameObject;
+        GameObject newButton = Instantiate(restartButton) as GameObject;
+        newButton.transform.SetParent(canvas.transform, false);
+        loserScreen.transform.SetParent(canvas.transform, false);
+    }
+
+    void Win()
+    {
+        if (runOnce)
+        {
+            runOnce = false;
+            GameObject winnerScreen = Instantiate(winScreen) as GameObject;
+            winnerScreen.transform.SetParent(canvas.transform, false);
+
+            GameObject newButton = Instantiate(restartButton) as GameObject;
+            newButton.transform.SetParent(canvas.transform, false);
+        }
     }
 }
