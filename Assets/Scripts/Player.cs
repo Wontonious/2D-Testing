@@ -14,14 +14,27 @@ public class Player : MonoBehaviour
     public GameObject deathEffect;
     public GameObject loseScreen;
 
-    public Button button;
+    public GameObject winScreen;
 
-
-
+    int[] enemy = new int[18];
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+    }
+
+
+    void FixedUpdate()
+    {
+        for (int i = 0; i < enemy.Length; i++)
+        {
+
+            int[i] enemy = new int gameObject.FindGameObjectsWithTag("Enemy")[i];
+        }
+        if (enemy.Length == 0)
+        {
+            Instantiate(winScreen, transform.position, Quaternion.identity);
+        }
     }
     public void playerDamaged(int damage)
     {
@@ -44,9 +57,6 @@ public class Player : MonoBehaviour
         Debug.Log("You lost loser");
 
         Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Instantiate(button, transform.position, Quaternion.identity);
-        //FindObjectOfType<GameManager>().EndGame();
-
-        //Instantiate(button, transform.position, Quaternion.identity);
+        Instantiate(loseScreen, transform.position, Quaternion.identity);
     }
 }
