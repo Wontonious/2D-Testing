@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class cameraMove : MonoBehaviour
 {
@@ -8,19 +6,13 @@ public class cameraMove : MonoBehaviour
 
     Vector3 position;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         if (player != null)
         {
             position = player.transform.position;
-            position.z = -10f;
+            position.z = -15f;
             transform.position = position;
         }
         else return;

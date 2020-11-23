@@ -36,10 +36,7 @@ public class PlayerMove : MonoBehaviour
     void FixedUpdate()
     {
         Move();
-
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
+        Aim();
     }
 
     void ProcessInputs()
@@ -53,5 +50,11 @@ public class PlayerMove : MonoBehaviour
         rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
     }
 
+    void Aim()
+    {
+        Vector2 lookDir = mousePos - rb.position;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        rb.rotation = angle;
+    }
    
 }

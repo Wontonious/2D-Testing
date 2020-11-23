@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
@@ -20,8 +18,18 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPreFab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+        Player player = gameObject.GetComponent<Player>();
+        if (player.AmmoChecker() == true)
+        {
+            GameObject bullet = Instantiate(bulletPreFab, firePoint.position, firePoint.rotation);
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+
+            player.ShootAmmo();
+        }
+        if (player.AmmoChecker() == false)
+        {
+            player.OutOfAmmo();
+        }
     }
 }
