@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Pellet
+  - TutorialEnemy
   layers:
   - Default
   - TransparentFX

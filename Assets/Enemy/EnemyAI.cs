@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Pathfinding;
 
 public class EnemyAI : MonoBehaviour
@@ -20,13 +18,14 @@ public class EnemyAI : MonoBehaviour
     Seeker seeker;
     Rigidbody2D rb;
 
+    public bool playerIsTrackable = false;
 
     // Start is called before the first frame update
     void Start()
     {
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
-        if (target != null)
+        if (target != null && playerIsTrackable)
         {
             InvokeRepeating("UpdatePath", 0f, 0.5f);
         }
@@ -91,5 +90,15 @@ public class EnemyAI : MonoBehaviour
             }
         }
         else return;
+    }
+
+    public void PlayerInRoom()
+    {
+        playerIsTrackable = true;
+    }
+
+    public void PlayerOutRoom()
+    {
+        playerIsTrackable = false;
     }
 }

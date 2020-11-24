@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
@@ -10,7 +8,7 @@ public class Enemy : MonoBehaviour
 
     public GameObject deathEffect;
 
-
+  
     void OnCollisionEnter2D(Collision2D collision)
     {
 
@@ -37,5 +35,4 @@ public class Enemy : MonoBehaviour
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
-
 }

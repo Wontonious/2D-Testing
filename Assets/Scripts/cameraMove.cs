@@ -14,6 +14,7 @@ public class cameraMove : MonoBehaviour
             position = player.transform.position;
             position.z = -15f;
             transform.position = position;
+            transform.rotation = Quaternion.identity;
         }
         else return;
     }
