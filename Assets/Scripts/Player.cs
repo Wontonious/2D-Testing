@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
     {
 
         currentHealth -= damage;
-        Debug.Log("You have: " + currentHealth + " health left");
+        //Debug.Log("You have: " + currentHealth + " health left");
         healthBar.SetHealth(currentHealth);
 
         if(currentHealth <= 0)
@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
-        Debug.Log("You lost loser");
+        //Debug.Log("You lost loser");
 
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         
@@ -109,7 +109,7 @@ public class Player : MonoBehaviour
 
     public void OutOfAmmo()
     {
-        Debug.Log("Out of pellets!");
+        //Debug.Log("Out of pellets!");
     }
 
     public int AmmoCount()
