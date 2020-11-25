@@ -456,6 +456,7 @@ MonoBehaviour:
   speed: 3000
   nextWaypointDistance: 3
   enemyGFX: {fileID: 1687681801}
+  playerIsTrackable: 0
 --- !u!114 &42144958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2976,9 +2977,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 328485191}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd590ce7bcb0134cbc70aad981954f2, type: 3}
+  m_Script: {fileID: 11500000, guid: 130c4b7afa3b14cec8f7a8ef989566f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerIsTrackable: 0
 --- !u!61 &328485193
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4438,6 +4440,7 @@ MonoBehaviour:
   speed: 3000
   nextWaypointDistance: 3
   enemyGFX: {fileID: 1609234873}
+  playerIsTrackable: 0
 --- !u!114 &543465581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8241,6 +8244,7 @@ MonoBehaviour:
   speed: 3000
   nextWaypointDistance: 3
   enemyGFX: {fileID: 2099136364}
+  playerIsTrackable: 0
 --- !u!114 &1043064930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9483,6 +9487,7 @@ MonoBehaviour:
   speed: 3000
   nextWaypointDistance: 3
   enemyGFX: {fileID: 989668434}
+  playerIsTrackable: 0
 --- !u!114 &1281061231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11608,6 +11613,7 @@ MonoBehaviour:
   speed: 3000
   nextWaypointDistance: 3
   enemyGFX: {fileID: 1729558500}
+  playerIsTrackable: 0
 --- !u!114 &1665493912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12696,6 +12702,7 @@ MonoBehaviour:
   speed: 3000
   nextWaypointDistance: 3
   enemyGFX: {fileID: 334683529}
+  playerIsTrackable: 0
 --- !u!114 &1882420083
 MonoBehaviour:
   m_ObjectHideFlags: 0

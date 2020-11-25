@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using Pathfinding;
 
 public class EnemyAI : MonoBehaviour
@@ -17,17 +17,20 @@ public class EnemyAI : MonoBehaviour
 
     Seeker seeker;
     Rigidbody2D rb;
+    DetectPlayerrRoom detector;
 
     public bool playerIsTrackable = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        detector = GetComponent<DetectPlayerrRoom>();
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
+        playerIsTrackable = detector.PlayerTrack();
         if (target != null && playerIsTrackable)
         {
-            InvokeRepeating("UpdatePath", 0f, 0.5f);
+            InvokeRepeating(nameof(UpdatePath), 0f, 0.5f);
         }
         else return;
     }
@@ -40,7 +43,7 @@ public class EnemyAI : MonoBehaviour
                 seeker.StartPath(rb.position, target.position, OnPathComplete);
         }
     }
-
+    
     void OnPathComplete(Path p)
     {
         if (!p.error)
@@ -90,15 +93,5 @@ public class EnemyAI : MonoBehaviour
             }
         }
         else return;
-    }
-
-    public void PlayerInRoom()
-    {
-        playerIsTrackable = true;
-    }
-
-    public void PlayerOutRoom()
-    {
-        playerIsTrackable = false;
     }
 }

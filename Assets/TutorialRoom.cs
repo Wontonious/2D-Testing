@@ -15,8 +15,4 @@ public class TutorialRoom : MonoBehaviour
             Destroy(door);
         }
     }
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-
-    }
 }
