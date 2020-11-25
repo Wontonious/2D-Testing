@@ -27,8 +27,7 @@ public class EnemyAI : MonoBehaviour
         detector = GetComponent<DetectPlayerrRoom>();
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
-        playerIsTrackable = detector.PlayerTrack();
-        if (target != null && playerIsTrackable)
+        if (target != null)
         {
             InvokeRepeating(nameof(UpdatePath), 0f, 0.5f);
         }
